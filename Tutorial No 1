@@ -1,1 +1,15 @@
+Create database sample1
+
+-- 'ALTER' keyword is use for modify Names the of DB 
+
+alter database sample1 modify Name = sample2
+
+-- system store procedure 
+--also rename using the query this is system store procedure
+
+sp_renameDB 'sample2','sample3'
+
+--- Delete and Drop database
+
+Drop Database sample4
 
